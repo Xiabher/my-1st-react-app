@@ -3,9 +3,9 @@ import React from "react";
 export default function Main(){
   return(
     <main>
-      <h1> Fun facts about react</h1>
-          <ul>
-          <li>Was first released in 2013</li>
+      
+      <h1 className="main--title">Fun facts about React</h1>
+            <ul className="main--facts">
                 <li>Was originally created by Jordan Walke</li>
                 <li>Has well over 100K stars on GitHub</li>
                 <li>Is maintained by Facebook</li>
